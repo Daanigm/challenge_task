@@ -71,7 +71,7 @@ describe('wager limmits', () => {
         .find('div > magic-ui-input')  
         .shadow()  
         .find('input')  
-        .type('4000');  
+        .type('5500');  
   
        cy.get('#content > div > div > magic-create-limits')  
         .shadow()  
